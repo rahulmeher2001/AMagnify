@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<Html>
+    <head>
+        <meta name="description" content="Amazon Hackathon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <body style="background-color: rgb(240, 255, 242);"></body>
+        <title>AMagnify</title>
+    </head>
+    <style>
+        .dropbtn {
+            background-color: #04aa0c;
+            color: white;
+            padding: 8px 16px 8px 16px;
+            font-size: 8px;
+            border: none;
+        }
+        .WebGLframe {
+            padding: 8px 16px 8px 16px;
+            justify-self:centre;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {background-color: #ddd;}
+
+        .dropdown:hover .dropdown-content {display: block;}
+
+        .dropdown:hover .dropbtn {background-color: #3e8e41;}
+        .green-border{
+            border-style: solid;
+            border-color:green;
+            border-width:2px;
+        }
+    </style>
+    <body>
+        <div class="dropdown">
+            <button class="dropbtn"><h1>Menu</h1></button>
+            <div class="dropdown-content">
+              <a href="#">Home</a>
+              <a href="#">Settings</a>
+              <a href="#">About Us</a>
+            </div>
+          </div>
+        <div>
+            <br/><br/>
+            <iframe class="WebGLframe" src="https://rahulmeher2001.github.io/Rotate-Cube/index.html" height="600" width="700" frameborder="0"></iframe>
+        </div>
+        <h3><u>Product Description:</u></h3>
+        <p>It's Alexa!!!!</p>
+    </body>
+</Html>
